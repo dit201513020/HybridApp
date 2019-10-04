@@ -1,0 +1,35 @@
+w3schools.com
+
+구글에 검색 ex)자바스크립트 사진 확대
+
+업그레이드 할 내용
+
+1.강조할 글자 폰트 바꾸기(Stroke Text)
+
+ex)	var c = document.getElementById("myCanvas");
+	var ctx = c.getContext("2d");
+	ctx.font = "30px Arial";
+	ctx.strokeText("Hello World", 10, 50);
+
+2.좋아하는 선수 사진 뽑아보기(Draw Image)
+
+ex)	var c = document.getElementById("myCanvas");
+	var ctx = c.getContext("2d");
+	var img = document.getElementById("scream");
+	ctx.drawImage(img, 10, 10);
+
+3.유튜브영상 가져온후 자동재생(YouTube Autoplay)
+
+You can have your video start playing automatically when a user visits that page by adding a simple parameter to your YouTube URL.
+
+Note: Take careful consideration when deciding to autoplay your videos. Automatically starting a video can annoy your visitor and end up causing more harm than good.
+
+Value 0 (default): The video will not play automatically when the player loads.
+
+Value 1: The video will play automatically when the player loads.
+
+ex)	<iframe width="420" height="315"
+	src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1">
+	</iframe>
+
+4.
